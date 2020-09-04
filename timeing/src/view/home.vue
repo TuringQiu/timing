@@ -37,11 +37,8 @@ export default {
 
 <style lang="scss" scoped>
 .itemBox {
-  width: 100vw;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   flex-wrap: wrap;
-  margin-left: 10px;
 }
 </style>

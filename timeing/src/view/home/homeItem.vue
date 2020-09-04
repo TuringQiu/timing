@@ -146,15 +146,27 @@ export default {
   margin-right: 10px;
 }
 .circleBox {
-  width: 240px;
-  padding: 8px 0px;
+  padding: 8px 10px;
   border: 4px solid #e1e1e1;
   border-radius: 8px;
+  margin-left: 2vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .title {
-  font-size: 16px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+@media (max-width: 750px) {
+  .circleBox {
+    width: 85vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .title {
+    font-size: 24px;
+    margin-right: 10px;
+  }
 }
 </style>
